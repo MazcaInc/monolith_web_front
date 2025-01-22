@@ -1,13 +1,13 @@
 // Colors
-$primary-black: #050016;
-$primary-pink: #2300e7;
-$neon-pink: #1b1fee;
+$black: #050016;
+$primary: #2300e7;
+$secondary: #1b1fee;
 $white: #f6f6ff;
 $gray: #161325;
 
 // Gradients
-$gradient-primary: linear-gradient(135deg, $primary-pink, $neon-pink);
-$gradient-dark: linear-gradient(135deg, $primary-black, $gray);
+$gradient-primary: linear-gradient(135deg, $primary, $secondary);
+$gradient-dark: linear-gradient(135deg, $black, $gray);
 $gradient-glass: linear-gradient(135deg, rgba($white, 0.1), rgba($white, 0.05));
 
 // Typography
