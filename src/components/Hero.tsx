@@ -4,7 +4,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const Hero = () => {
     const scrollToContent = () => {
         window.scrollTo({
-            top: window.innerHeight,
+            top: 830,
             behavior: "smooth"
         });
     };
