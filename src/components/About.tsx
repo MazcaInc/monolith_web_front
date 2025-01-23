@@ -1,13 +1,9 @@
-import "../styles/components/About.scss";
+import "@styles/components/About.scss";
 
-const About = () => {
+export default function About() {
     return (
         <section className="about">
-            <div className="container">
-
-            </div>
+            <div className="container"></div>
         </section>
     );
-};
-
-export default About;
+}

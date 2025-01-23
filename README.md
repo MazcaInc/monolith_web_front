@@ -1,4 +1,4 @@
-<h1 align="center"><picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabf/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1fabf/512.gif" alt="🪿" width="42" height="42"></picture>Monolith Web Frontend</h1>
+<h1 align="center"><picture><source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f433/512.webp" type="image/webp"><img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f433/512.gif" alt="🐳" width="32" height="32"></picture>Monolith Web Frontend</h1>
 
 <p align="center">Monolith is the ultimate gym app designed to drive real progress and help you achieve your fitness goals.</p>
 

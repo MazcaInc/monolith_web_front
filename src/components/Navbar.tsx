@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { User } from "lucide-react";
-import "../styles/components/Navbar.scss";
+import "@styles/components/Navbar.scss";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     // const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isMobileMenuOpen] = useState(false);
@@ -70,6 +70,4 @@ const Navbar = () => {
             </div>
         </nav>
     );
-};
-
-export default Navbar;
+}

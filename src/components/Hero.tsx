@@ -1,7 +1,7 @@
-import "../styles/components/Hero.scss";
+import "@styles/components/Hero.scss";
 import { ArrowRight, ChevronDown } from "lucide-react";
 
-const Hero = () => {
+export default function Hero() {
     const scrollToContent = () => {
         window.scrollTo({
             top: window.innerHeight,
@@ -12,9 +12,7 @@ const Hero = () => {
     return (
         <section className="hero">
             <div className="hero-content">
-                <h1 className="hero-title">
-                    MONOLITH
-                </h1>
+                <h1 className="hero-title">MONOLITH</h1>
                 <button className="btn">
                     SEE MORE <ArrowRight size={20} />
                 </button>
@@ -24,6 +22,4 @@ const Hero = () => {
             </button>
         </section>
     );
-};
-
-export default Hero;
+}

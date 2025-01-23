@@ -1,15 +1,13 @@
 import { Instagram, Twitter, Youtube } from "lucide-react";
-import "../styles/components/Footer.scss";
+import "@styles/components/Footer.scss";
 
-const Footer = () => {
+export default function Footer() {
     return (
         <footer className="footer">
             <div className="container footer-content">
                 <div className="footer-section">
                     <h3>Monolith</h3>
-                    <p>
-                        GYM APP
-                    </p>
+                    <p>GYM APP</p>
                 </div>
 
                 <div className="footer-section">
@@ -42,6 +40,4 @@ const Footer = () => {
             </div>
         </footer>
     );
-};
-
-export default Footer;
+}

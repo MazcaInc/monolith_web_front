@@ -24,17 +24,17 @@
         "noFallthroughCasesInSwitch": true,
         "baseUrl": "./src",
         "paths": {
-            "@components/*": ["app/web/components/*"],
-            "@screens/*": ["app/web/screens/*"],
-            "@routes/*": ["app/web/routes/*"],
-            "@assets/*": ["app/assets/*"],
-            "@styles/*": ["app/web/styles/*"],
-            "@constants/*": ["app/utils/constants/*"],
+            "@components/*": ["components/*"],
+            "@screens/*": ["screens/*"],
+            "@routes/*": ["routes/*"],
+            "@assets/*": ["assets/*"],
+            "@styles/*": ["styles/*"],
+            "@constants/*": ["utils/constants/*"],
             "@integrations/*": ["@clean/integrations/modules/*"],
             "@enums/*": ["@clean/shared/domain/enums/*"],
-            "@interfaces/*": ["app/utils/interfaces/*"],
-            "@functions/*": ["app/utils/functions/*"],
-            "@formatters/*": ["app/utils/formatters/*"]
+            "@interfaces/*": ["utils/interfaces/*"],
+            "@functions/*": ["utils/functions/*"],
+            "@formatters/*": ["utils/formatters/*"]
         }
     },
     "include": ["src", "src/vite-env.d.ts"],
