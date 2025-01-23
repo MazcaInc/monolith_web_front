@@ -51,15 +51,6 @@ export default function Navbar() {
                     <Link to="/" className="nav-link">
                         Home
                     </Link>
-                    <Link to="/catalog" className="nav-link">
-                        Catalog
-                    </Link>
-                    <Link to="/about" className="nav-link">
-                        About
-                    </Link>
-                    <Link to="/sales" className="nav-link">
-                        Sales
-                    </Link>
                     <div className="mobile-actions">
                         <button className="auth-button">Login</button>
                         <div className="mobile-icons">
