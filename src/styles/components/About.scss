@@ -5,8 +5,14 @@
     min-height: 460px;
     padding: 3em;
 
-    h1, h2, h3, p, a, span, svg {
-        color: $primary
+    h1,
+    h2,
+    h3,
+    p,
+    a,
+    span,
+    svg {
+        color: $primary;
     }
 
     h1 {
@@ -23,13 +29,11 @@
         .about-image {
             margin: 1.5em 0 0.5em 0;
             align-items: center;
-            
+
             img {
                 height: auto;
                 width: 200px;
             }
         }
-
     }
-
 }
